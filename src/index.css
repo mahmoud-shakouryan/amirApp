@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "shabnam";
+  src: url("./fonts/Shabnam.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: "shabnamLight";
+  src: url("./fonts/Shabnam-Light.ttf");
+  font-display: block;
+}
+body {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  user-select: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c6a6ee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #32115d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0e051b;
+}
